@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Innis College",
+          "year_founded": "1964",
+          "population": "2100"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.39907740674556,
+            43.66555136155861
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Woodsworth College",
+          "year_founded": "1974",
+          "population": "5400"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.39897563558219,
+            43.666406883507506
+          ],
+          "type": "Point"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "New College",
+          "year_founded": "1962",
+          "population": "6300"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.40115136441808,
+            43.661320122829835
+          ],
+          "type": "Point"
+        },
+        "id": 2
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "St. Michael's College",
+          "year_founded": "1852",
+          "population": "5300"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.38981013558205,
+            43.66633062256952
+          ],
+          "type": "Point"
+        },
+        "id": 3
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Trinity College",
+          "year_founded": "1851",
+          "population": "2100"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.39558142691892,
+            43.664051707680926
+          ],
+          "type": "Point"
+        },
+        "id": 5
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "University College",
+          "year_founded": "1853",
+          "population": "5500"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.39595236441849,
+            43.66247714567075
+          ],
+          "type": "Point"
+        },
+        "id": 6
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Victoria College",
+          "year_founded": "1836",
+          "population": "3982"
+        },
+        "geometry": {
+          "coordinates": [
+            -79.39158225006935,
+            43.66701341643372
+          ],
+          "type": "Point"
+        },
+        "id": 6
+      }
+    ]
+  }

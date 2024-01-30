@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 7 colleges @ UofT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-lg">
+        <!-- Heading 1 -->
+    <h1>
+        The 7 Colleges at the University of Toronto
+    </h1>
+    <p>
+        <a target="_blank" href="https://www.utoronto.ca/">UofT</a> is distinguished by its unique collegiate system. 
+        This system is comprised of seven colleges, each with its own distinct character, traditions, and history, yet all are integral parts of the UofT community. 
+        These colleges include:
+    </p>
+    <ul>
+        <li>
+            Innis College, known for its modernist architecture and active film society
+        </li>
+        <li>
+            New College, with a focus on innovation
+        </li>
+        <li>
+            St. Michael's College, rooted in the Catholic intellectual tradition
+        </li>
+        <li>
+            Trinity College, famous for its formal traditions and academic excellence
+        </li>
+        <li>
+            University College, celebrated for its inclusive spirit and gothic architecture
+        </li>
+        <li>
+            Victoria College, known for its strong arts and humanities programs
+        </li>
+        <li>
+            Woodsworth College, which emphasizes diversity
+        </li>
+    </ul>
+    <p>
+        Each college provides a smaller community within the larger university, offering its students a unique blend of social, academic, and cultural experiences.
+    </p>
+    <img src="https://www.artsci.utoronto.ca/sites/default/files/web-banner-1280x480-2.gif" alt="welcome to UofT" style="width:480px;height:180px;">
+    </div>
+      
+    <div class="container-lg">
+        <h2>
+            Test your knowledge on the college system.
+        </h2>
+        <h3>
+            Hint: use <a target="_blank" href="https://geojson.io/">GeoJson.io</a> to read <a target="_blank" href="colleges.geojson">this GeoJson file</a> for help.
+        </h3>
+    </div>
+    <div class="container-lg">
+        <p>1. Which college is the youngest among the all?</p>
+        <input type="radio" id="q1a1" name="question1" value="Innis"><label for="q1a1">Innis College</label><br>
+        <input type="radio" id="q1a2" name="question1" value="Victoria"><label for="q1a2">Victoria College</label><br>
+        <input type="radio" id="q1a3" name="question1" value="Woodsworth"><label for="q1a3">Woodsworth College</label><br>
+        <button onclick="checkAnswer(1, 'Woodsworth')">Submit Answer</button>
+    </div>
+    
+    <div class="container-lg">
+        <p>2. Which college has the largest population?</p>
+        <input type="radio" id="q2a1" name="question2" value="New"><label for="q2a1">New College</label><br>
+        <input type="radio" id="q2a2" name="question2" value="St. Michael's"><label for="q2a2">St. Michael's College</label><br>
+        <input type="radio" id="q2a3" name="question2" value="University"><label for="q2a3">University College</label><br>
+        <button onclick="checkAnswer(2, 'New')">Submit Answer</button>
+    </div>
+    
+    <div class="container-lg">
+        <p>3. Which is the northernmost college on campus?</p>
+        <input type="radio" id="q3a1" name="question3" value="Trinity"><label for="q3a1">Trinity College</label><br>
+        <input type="radio" id="q3a2" name="question3" value="Woodsworth"><label for="q3a2">Woodsworth College</label><br>
+        <input type="radio" id="q3a3" name="question3" value="St. Michael's"><label for="q3a3">St. Michael's College</label><br>
+        <button onclick="checkAnswer(3, 'Woodsworth')">Submit Answer</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
