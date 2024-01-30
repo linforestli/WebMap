@@ -1,18 +1,25 @@
 body {
-    background-color: #25355A;
+    /* Set the background colour to dark blue */
+    background-color: #25355A; 
+    /* Set the font colour to white */
     color: white;
 }
 
 h1 {
+    /* Set the style of heading 1 to bold */
     font-weight: bold;
+    /* Set the font size to 30px */
     font-size: 30px;
 }
 
 h2 {
+    /* Set the style of heading 2 to bold */
     font-weight: bold;
+    /* Set the font size to 24px */
     font-size: 24px;
 }
 
 h3 {
+    /* Set the font size of heading 3 to 20px */
     font-size: 20px;
 }
