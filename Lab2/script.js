@@ -3,15 +3,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGluZm9yZXN0bGkiLCJhIjoiY2xzMjllcDBwMDh6ejJwc
 const map = new mapboxgl.Map({
     container: 'theft-map', 
     style: 'mapbox://styles/linforestli/clsjt2z9w01f701qrdzwi45sh',
-    center: [79.3838, 43.6504],
-    zoom: 50,
+    center: [79.3838, 43.6504]
 });
 
 map.on('load', () => {
 
     map.addSource('police-division-data', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/sources/police_division.geojson' // Your URL to your buildings.geojson file
+        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/Lab2/sources/police_division.geojson' // Your URL to your buildings.geojson file
     });
 
     map.addLayer({
@@ -26,7 +25,7 @@ map.on('load', () => {
 
     map.addSource('bike-theft-data', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/sources/bike_theft.geojson'
+        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/Lab2/sources/bike_theft.geojson'
     });
 
     map.addLayer({
@@ -41,7 +40,7 @@ map.on('load', () => {
 
     map.addSource('bike-parking-data', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/sources/bike_parking.geojson'
+        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/Lab2/sources/bike_parking.geojson'
     });
 
     map.addLayer({
