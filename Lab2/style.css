@@ -1,6 +1,19 @@
 .map-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+    position: relative;
+    height: 800px;
+    width: 1000px;
+}
+
+body {
+    background-color: #FFFAF0; /* Natural white color */
+    font-family: sans-serif; /* Default sans-serif font for the body */
+}
+
+h1 {
+    color: #8B0000; /* Dark red color */
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
 }
