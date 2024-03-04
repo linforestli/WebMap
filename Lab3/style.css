@@ -1,8 +1,8 @@
 /* Set size for the map container */
 .map-container {
     position: relative;
-    height: 800px; 
-    width: 1000px;
+    height: 1000px; 
+    width: 1200px;
 }
 
 body {
@@ -11,10 +11,37 @@ body {
 }
 
 h1 {
-    color: #8B0000; /* Dark red color */
+    color: #3b5b31; /* Dark green color */
     font-family: sans-serif; /* Sans-serif font for the body */
 }
 
 p {
     font-family: sans-serif; /* Sans-serif font for the body */
+}
+
+.map-search-container {
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.filters-container {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.legend {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 14px;
+    top: 190px;
+    right: 10px;
+    z-index: 1;
 }

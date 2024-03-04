@@ -16,11 +16,35 @@
     </h1>
     <!-- Body text -->
     <p>
-        Bike thefts in Toronto have become a significant concern for cyclists and urban planners alike, as the city's increasing embrace of cycling as a sustainable and healthy mode of transportation meets the challenge of rising crime rates in this area. 
-        The phenomenon is not just about the loss of bicycles but also reflects broader issues related to urban safety, property crime, and the need for improved infrastructure to protect citizens' properties.
-        <br> <br> The map below shows bike theft incidents in Toronto since 2013, with outdoor bike parkings with high capacity marked out.
+        Toronto's parks and recreational areas are essential green spaces and community centres that improve the standard of living for city residents. These spaces are increasingly important as the city grows and changes as they provide both locals and tourists with a break from the city's hustle and bustle and opportunities for recreational and athletic pursuits.
+        <br> <br> The map below shows parks and recreation facilities in Toronto. Click on locations to know more details.
     </p>
     <div id="park-map" class="map-container"></div>
+    
+    <!-- Full extent button -->
+    <div class='map-search-container'>
+        <button type="button" class="btn btn-primary btn-sm" id="returnbutton">Return to full extent</button>
+    </div>
+    
+    <!-- Legend -->
+    <div id="legend" class="legend">
+        <h4>Facility Type</h4>
+        <div><span style="background-color: #4F7942; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> Park </div>
+        <div><span style="background-color: #E4D00A; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> Community Centre</div>
+    </div>
+
+    <!-- Filter -->
+    <div id="filters" class="filters-container">
+        <input type="checkbox" id="show-parks" checked>
+        <label for="show-parks">Show Parks</label>
+        <input type="checkbox" id="show-cc" checked>
+        <label for="show-cc">Show Community Centres</label>
+    </div>
+    
+
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
