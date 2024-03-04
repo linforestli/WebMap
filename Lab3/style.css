@@ -1,0 +1,20 @@
+/* Set size for the map container */
+.map-container {
+    position: relative;
+    height: 800px; 
+    width: 1000px;
+}
+
+body {
+    background-color: #FFFAF0; /* Natural white color */
+    font-family: sans-serif; /* Sans-serif font for the body */
+}
+
+h1 {
+    color: #8B0000; /* Dark red color */
+    font-family: sans-serif; /* Sans-serif font for the body */
+}
+
+p {
+    font-family: sans-serif; /* Sans-serif font for the body */
+}
