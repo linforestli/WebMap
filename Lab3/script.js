@@ -24,4 +24,20 @@ map.on('load', () => {
             'circle-color': '#4F7942'
         }
     });
+
+    // Add wards layer to the map
+    map.addSource('ward-data', {
+        type: 'geojson',
+        data: 'https://raw.githubusercontent.com/linforestli/WebMap/main/Lab3/sources/wards.geojson' // Link to the data source
+    });
+
+    map.addLayer({
+        'id': 'ward-polygon',
+        'type': 'fill',
+        'source': 'ward-data',
+        'paint': {
+            'fill-opacity': 0.6,
+            'fill-color': '#ECFFDC'
+        }
+    });
 });
