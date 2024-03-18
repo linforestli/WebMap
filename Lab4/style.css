@@ -6,3 +6,25 @@
     right: 0;
     width: 100%;
 }
+
+.legend {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 14px;
+    top: 190px;
+    right: 10px;
+    z-index: 1; 
+}
+
+.textbox {
+    position: absolute;
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }

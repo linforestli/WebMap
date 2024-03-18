@@ -9,6 +9,11 @@
     <!-- mapbox API -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Geocoder -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Turf.js -->
@@ -19,7 +24,21 @@
 
     <!-- MAP CONTAINER -->
     <div id='map' class='map'></div>
-
+    <!-- LEGEND -->
+    <div id="legend" class="legend">
+        <h4>Incidents count</h4>
+        <div><span style="background-color: #1984c5; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> 0 - 10 </div>
+        <div><span style="background-color: #22a7f0; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> 11 - 20</div>
+        <div><span style="background-color: #63bff0; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> 21 - 30</div>
+        <div><span style="background-color: #a7d5ed; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> 31 - 40</div>
+        <div><span style="background-color: #e1a692; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> 41 - 50</div>
+        <div><span style="background-color: #c23728; width: 24px; height: 24px; display: inline-block; margin-right: 5px;"></span> Above 50</div>
+    </div>
+    <!-- TEXT -->
+    <div class="textbox">
+        <h2>Pedestrian and cycle collisions in Toronto</h2>
+        <p>The map shows the density of pedestrian and cycle collisions in areas of Toronto. <br> Click on each hexagon to see the incident count.</p>
+      </div>
     <script src="script.js"></script>
 
 </body>
